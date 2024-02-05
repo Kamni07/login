@@ -1,0 +1,106 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-image: url(./bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* margin-top: 200px; */
+    border: 2px solid black;
+    border-radius: 10px;
+    /* background: gray; */
+    margin: 200px 500px 100px 500px;
+    background: rgba(255, 255, 255, 0.047);
+    box-shadow: -1px 4px 28px 0px rgba(0,0,0,0.75);
+    border: none;
+}
+
+.container h1{
+    color: white;
+    font-size: xx-large;
+    font-weight: 30px;
+}
+
+p{
+    color: white;
+    font-size: larger;
+}
+
+.loginpage{
+    background-color: white;
+    height: 40px;
+    
+}
+
+.loginpage input{
+    border: none;
+    padding-top: 10px;
+    height:28px;
+    width:90%;
+}
+
+.button{
+    background-color: rgb(5, 165, 228);
+    height: 40px;
+    width: 100%;
+    border: none;
+}
+
+.button a{
+    color: white;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+}
+
+.button:hover{
+    background-color: rgb(5, 122, 169);
+}
+.btn{
+    background-color: rgb(5, 165, 228);
+    /* display:flex; */
+    height:40px;
+    width:49%;
+    border: none;
+    color: white;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+
+}
+.btn:hover{
+    background-color: rgb(5, 122, 169);
+}
+
+.btn1{
+    background-color: rgb(146, 43, 60);
+    /* display:flex; */
+    height:40px;
+    width:49%;
+    border: none;
+    color: white;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+
+}
+.btn1:hover{
+    background-color: rgb(99, 27, 39);
+}
+
+.para{
+    color:black ;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:550;
+}
